@@ -7,8 +7,8 @@ export default async function Home() {
         <div className="container">
           <div className="intro">
             <img
-              src="/imgs/me.png"
-              alt="Al Siam Profile"
+              src="/imgs/home-pic.png"
+              alt="Profile Picture"
               className="shadow-dark"
             />
             <h1>Sairaj Morajkar</h1>

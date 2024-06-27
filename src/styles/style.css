@@ -371,12 +371,14 @@ select {
   text-align: center;
 }
 .home .intro img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   display: inline-block;
-  border: 8px solid #ffffff;
+  border: 4px solid #ffffff;
 }
+
+
 .home .intro h1 {
   font-size: 30px;
   color: #302e4d;
@@ -423,10 +425,27 @@ select {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
+  display: flex;
 }
+
+.aboutcontent{
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.profilepic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 4px solid #ffffff;
+  align-self: center;
+  /* margin: 25px; */
+}
+
 .about .about-content .about-text h2 {
   font-size: 24px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   font-weight: 700;
   color: #302e4d;
 }
@@ -1127,6 +1146,9 @@ select {
 /* ---------------  Responsive Css Stared */
 /* ====================================================== */
 
+
+
+/* Styles for screens with a width of up to 1199px (typically tablets and smaller desktop screens) */
 @media (max-width: 1199px) {
   .section .container {
     padding-top: 70px;
@@ -1163,6 +1185,9 @@ select {
     margin-left: 0;
   }
 }
+
+
+/* Styles for screens with a width of up to 991px (typically large phones and small tablets) */
 @media (max-width: 991px) {
   .blog .blog-item,
   .portfolio .portfolio-item,
@@ -1171,7 +1196,11 @@ select {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  
 }
+
+
+/* Styles for screens with a width of up to 767px (typically tablets and larger phones) */
 @media (max-width: 767px) {
   .contact .contact-form .col-6,
   .blog .blog-item,
@@ -1187,7 +1216,11 @@ select {
   .portfolio .portfolio-filter button {
     margin-bottom: 10px;
   }
+  
 }
+
+
+/* Styles for screens with a width of up to 575px (typically smaller phones) */
 @media (max-width: 575px) {
   .contact .contact-info-item,
   .portfolio .portfolio-item {
@@ -1195,4 +1228,17 @@ select {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  
+
+  .about .about-content .about-text {
+    display: block;
+    text-align: center;
+  }
+
+  .about .about-content .about-text h2 {
+    margin-bottom: 15px;
+  }
+
+  
 }

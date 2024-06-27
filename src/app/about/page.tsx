@@ -6,25 +6,33 @@ const About: NextPage = () => {
       <section className="about section" id="about">
         <div className="container">
           <div className="row">
-            <div className="section-title padd-15">
+            {/* <div className="section-title padd-15">
               <h2>About Me</h2>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div className="about-content padd-15">
               <div className="row">
                 <div className="about-text padd-15">
-                  <h2>
-                    I am Sairaj Morajkar a <span>Software Developer</span>
-                  </h2>
-                  <p>
-                    Hi! My name is Sai. I am a dedicated and passionate Flutter
-                    and web developer with one year of experience. I have
-                    acquired the skills and knowledge necessary to make your
-                    project a success. I enjoy every step of the design process,
-                    from discussion and collaboration to the final
-                    implementation.
-                  </p>
+                  <img
+                    src="/imgs/me.png"
+                    alt="Profile Pic"
+                    className="profilepic shadow-dark"
+                  />
+
+                  <div className="row aboutcontent">
+                    <h2>
+                      I am Sairaj Morajkar a <span>Software Developer</span>
+                    </h2>
+                    <p>
+                      Hi! My name is Sai. I am a dedicated and passionate
+                      Flutter and web developer with one year of experience. I
+                      have acquired the skills and knowledge necessary to make
+                      your project a success. I enjoy every step of the design
+                      process, from discussion and collaboration to the final
+                      implementation.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="row">
@@ -200,7 +208,8 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" />Jun 2020 to Dec 2020
+                            <i className="fa fa-calendar" />
+                            Jun 2020 to Dec 2020
                           </h6>
                           <h4 className="timeline-title">
                             Flutter Developer @ Infydex
