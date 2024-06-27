@@ -71,7 +71,7 @@ const About: NextPage = () => {
                         Download CV
                       </a>
                       <a
-                        href="#contact"
+                        href="/contact"
                         data-section-index={0}
                         className="btn hire-me"
                       >
