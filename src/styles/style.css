@@ -369,19 +369,7 @@ select {
 }
 .home .intro {
   text-align: center;
-  cursor: default;
-  color: #afa18f;
 }
-
-.mask{
-  mask-image: url('../../public/mask.svg');
-  mask-repeat: no-repeat;
-  mask-size: 40px;
-  background: #ec4e39;
-  position: absolute;
-  color: black;
-}
-
 .home .intro img {
   width: 300px;
   height: 300px;
@@ -393,10 +381,8 @@ select {
 
 .home .intro h1 {
   font-size: 30px;
-  font-family: 'Avant Garde Book BT';
-  /* color: #302e4d;  */
-  color: #afa18f;
-  /* font-family: "Rubik", sans-serif; */
+  color: #302e4d;
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   margin: 20px 0 5px;
 }
