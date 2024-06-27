@@ -17,25 +17,25 @@ const Contact: NextPage = () => {
                 <i className="fa fa-map-marker" />
               </div>
               <h4>Address</h4>
-              <p>Your Address, City</p>
+              <p>Sindhudurg, Maharashtra</p>
             </div>
             {/* contact-info-item Ended */}
             {/* contact-info-item */}
             <div className="contact-info-item padd-15">
               <div className="icon">
-                <i className="fa fa-phone" />
+                <i className="fa fa-whatsapp" />
               </div>
-              <h4>Call Us On</h4>
-              <p>+99 **********</p>
+              <h4>Whatsapp me On</h4>
+              <p>+91 7798442140</p>
             </div>
-            {/* contact-info-item Ended */}
+            {/* contact-info-item Ended */} 
             {/* contact-info-item */}
             <div className="contact-info-item padd-15">
               <div className="icon">
                 <i className="fa fa-envelope" />
               </div>
               <h4>Email</h4>
-              <p>your@email.com</p>
+              <p>saimorajkar123@gmail.com</p>
             </div>
             {/* contact-info-item Ended */}
           </div>
