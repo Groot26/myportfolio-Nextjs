@@ -1,4 +1,6 @@
 import type { NextPage } from "next";
+import Image from "next/image";
+import aboutPic from "@/assets/images/me.png";
 
 const About: NextPage = () => {
   return (
@@ -14,10 +16,17 @@ const About: NextPage = () => {
             <div className="about-content padd-15">
               <div className="row">
                 <div className="about-text padd-15">
-                  <img
+                  {/* <img
                     src="/imgs/me.png"
                     alt="Profile Pic"
                     className="profilepic shadow-dark"
+                    loading='lazy'
+                  /> */}
+                  <Image
+                    src={aboutPic}
+                    className="profilepic shadow-dark"
+                    loading="lazy"
+                    alt="profile"
                   />
 
                   <div className="row aboutcontent">
