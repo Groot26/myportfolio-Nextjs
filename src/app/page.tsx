@@ -14,8 +14,8 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      {/* <section className="home section" id="home">
-        <div className="container"> */}
+      <section className="home section" id="home">
+        <div className="container">
 
       <motion.div
         className={styles.mask}
@@ -27,7 +27,7 @@ export default function Home() {
         }}
         transition={{ type: "tween", ease: "backOut", duration: 0.5 }}
       >
-        <section
+        {/* <section
           className="home section"
           id="home"
           onMouseEnter={() => {
@@ -37,8 +37,14 @@ export default function Home() {
             setIsHovered(false);
           }}
         >
-          <div className="container">
-            <div className="intro">
+          <div className="container"> */}
+            <div className="intro"
+            onMouseEnter={() => {
+              setIsHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsHovered(false);
+            }}>
               <Image
                 src={batman}
                 className="shadow-dark"
@@ -65,13 +71,13 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-        </section>
+          {/* </div>
+        </section> */}
       </motion.div>
 
       <div className={styles.body}>
-        <section className="home section" id="home">
-          <div className="container">
+        {/* <section className="home section" id="home">
+          <div className="container"> */}
             <div className="intro">
               <Image
                 src={proflie}
@@ -99,11 +105,11 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-        </section>
+          {/* </div>
+        </section> */}
       </div>
-      {/* </div>
-      </section> */}
+      </div>
+      </section>
     </main>
   );
 }
