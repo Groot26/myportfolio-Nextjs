@@ -48,7 +48,8 @@ select {
   display: block;
   padding: 0 30px;
   position: fixed;
-  left: 270px;
+  /* left: 270px; */
+  left: 0px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -373,14 +374,14 @@ select {
   color: #afa18f;
 }
 
-.mask{
+/* .mask{
   mask-image: url('../../public/mask.svg');
   mask-repeat: no-repeat;
   mask-size: 40px;
   background: #ec4e39;
   position: absolute;
   color: black;
-}
+} */
 
 .home .intro img {
   width: 300px;

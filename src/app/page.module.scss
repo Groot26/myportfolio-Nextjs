@@ -1,26 +1,24 @@
 .main{
-  height: 100vh;
+  // height: 100vh;
 
   .mask, .body{
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // max-width: 1100px;
+    // margin: auto;
+    // display: flex; 
+    // align-items: center;
+    // justify-content: center;
     color: #afa18f;
-    font-size: 64px;
-    line-height: 66px;
+    // font-size: 64px;
+    // line-height: 66px;
     cursor: default;
+    // border: solid #afa18f 1px;
     
-    p{
-      width: 1000px;
-      padding:40px;
-    }
     span{
       color: #ec4e39;
     }
   }
-
   .mask{
     mask-image: url('../../public/mask.svg');
     mask-repeat: no-repeat;
@@ -28,5 +26,9 @@
     background: #ec4e39;
     position: absolute;
     color: black;
+    // border: solid white 5px;
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
   }
 }

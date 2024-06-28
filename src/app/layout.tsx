@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           {/* <ThemeSwitch /> */}
-          <Sidebar />
+          {/* <Sidebar /> */}
           {children}
         </Providers>
         <Analytics />
