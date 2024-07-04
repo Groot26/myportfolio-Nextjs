@@ -27,6 +27,7 @@ const Service: NextPage = () => {
               </div>
             </div> */}
             {/* Service Item 1 End */}
+
             {/* Service Item 2: Web Design */}
             <div className="service-item padd-15">
               <div className="service-item-inner">
@@ -35,15 +36,16 @@ const Service: NextPage = () => {
                 </div>
                 <h4>Custom Web Design</h4>
                 <p>
-                  Create a stunning online presence with our custom web design
-                  services. Wel will tailor a website that not only looks
+                  Create a stunning online presence with my custom web design
+                  services. I will tailor a website that not only looks
                   impressive but also delivers a seamless user experience,
                   helping you achieve your online goals.
                 </p>
               </div>
             </div>
             {/* Service Item 2 End */}
-            {/* Service Item 3: WordPress */}
+
+            {/* Service Item 3: Web Development */}
             <div className="service-item padd-15">
               <div className="service-item-inner">
                 <div className="icon">
@@ -51,16 +53,16 @@ const Service: NextPage = () => {
                 </div>
                 <h4>Web Development</h4>
                 <p>
-                  Turn your digital ideas into reality with our web development
-                  solutions. We specialize in crafting robust and dynamic
+                  Turn your digital ideas into reality with my web development
+                  solutions. I specialize in crafting robust and dynamic
                   websites that are tailored to meet your specific business
                   needs and objectives.
                 </p>
               </div>
             </div>
-
             {/* Service Item 3 End */}
-            {/* Service Item 4: Web Development */}
+
+            {/* Service Item 4: Android Development */}
             <div className="service-item padd-15">
               <div className="service-item-inner">
                 <div className="icon">
@@ -69,30 +71,31 @@ const Service: NextPage = () => {
                 <h4>Android Development</h4>
                 <p>
                   Leverage the capabilities of Android to create innovative and
-                  robust applications. Our team of experts will build
-                  feature-rich and scalable Android apps that offer seamless
-                  user experiences and help you stay ahead in the mobile
-                  landscape.
+                  robust applications. I will build feature-rich and scalable
+                  Android apps that offer seamless user experiences and help you
+                  stay ahead in the mobile landscape.
                 </p>
               </div>
             </div>
             {/* Service Item 4 End */}
-            {/* Service Item 5: Video Editing */}
-            {/* <div className="service-item padd-15">
+
+            {/* Service Item 5: Desktop Application */}
+            <div className="service-item padd-15">
               <div className="service-item-inner">
                 <div className="icon">
-                  <i className="fa fa-film" />
+                  <i className="fa fa-desktop" />
                 </div>
-                <h4>Professional Video Editing</h4>
+                <h4>Desktop Application</h4>
                 <p>
-                  Enhance your video content with our professional video editing
-                  services. We will transform your raw footage into polished,
-                  engaging videos that captivate your audience and convey your
-                  message effectively.
+                  Develop powerful and efficient desktop applications tailored
+                  to your business needs. I will create solutions that provide a
+                  seamless experience across various platforms and enhance your
+                  operational efficiency.
                 </p>
               </div>
-            </div> */}
+            </div>
             {/* Service Item 5 End */}
+
             {/* Service Item 6: SEO Optimization */}
             {/* <div className="service-item padd-15">
               <div className="service-item-inner">

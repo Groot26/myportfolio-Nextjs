@@ -194,6 +194,26 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
+                         {/* Timeline Item */}
+                         <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" />
+                            Jan 2024 to Present
+                          </h6>
+                          <h4 className="timeline-title">
+                            Lead Software Developer @ GraysLab
+                          </h4>
+                          <p className="timeline-text">
+                            As the Lead Software Developer at GraysLab, I work
+                            on Android apps, web applications, websites, and
+                            desktop applications. Additionally, I manage
+                            freelancers for various projects, leading and
+                            guiding them to ensure successful project
+                            completion.
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
