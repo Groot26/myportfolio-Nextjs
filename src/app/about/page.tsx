@@ -54,7 +54,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email :<span>saimorajkar123@gmail.com</span>
+                        Email : <span>saimorajkar123@gmail.com</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">

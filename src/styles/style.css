@@ -433,6 +433,12 @@ select {
   margin-top: 15px;
 }
 
+@media (max-width: 575px) {
+  .aboutcontent{
+    margin-left: 0px;
+  }
+}
+
 .profilepic{
   width: 200px;
   height: 200px;
