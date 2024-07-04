@@ -28,7 +28,7 @@ const Contact: NextPage = () => {
               <h4>Whatsapp me On</h4>
               <p>+91 7798442140</p>
             </div>
-            {/* contact-info-item Ended */} 
+            {/* contact-info-item Ended */}
             {/* contact-info-item */}
             <div className="contact-info-item padd-15">
               <div className="icon">
@@ -41,7 +41,11 @@ const Contact: NextPage = () => {
           </div>
           {/* Contact Form */}
           <div className="row">
-            <form className="contact-form padd-15">
+            <form
+              className="contact-form padd-15"
+              action="https://formspree.io/f/mnnaqblw"
+              method="POST"
+            >
               <div className="row">
                 <div className="form-item col-6 padd-15">
                   <div className="form-group">
@@ -49,6 +53,7 @@ const Contact: NextPage = () => {
                       type="text"
                       className="form-control"
                       placeholder="Name*"
+                      name="name"
                     />
                   </div>
                 </div>
@@ -58,6 +63,7 @@ const Contact: NextPage = () => {
                       type="email"
                       className="form-control"
                       placeholder="Email*"
+                      name="email"
                     />
                   </div>
                 </div>
@@ -69,6 +75,7 @@ const Contact: NextPage = () => {
                       type="text"
                       className="form-control"
                       placeholder="Subject*"
+                      name="subject"
                     />
                   </div>
                 </div>
@@ -80,6 +87,7 @@ const Contact: NextPage = () => {
                       className="form-control"
                       placeholder="Your Message*"
                       defaultValue={""}
+                      name="message"
                     />
                   </div>
                 </div>
