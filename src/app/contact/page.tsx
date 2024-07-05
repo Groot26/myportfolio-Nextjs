@@ -43,7 +43,7 @@ const Contact: NextPage = () => {
           <div className="row">
             <form
               className="contact-form padd-15"
-              action="https://formspree.io/f/mnnaqblw"
+              action={`https://formspree.io/f/${process.env.NEXT_PUBLIC_FORMSPREE_KEY}`} //Add Your formspree Api key
               method="POST"
             >
               <div className="row">

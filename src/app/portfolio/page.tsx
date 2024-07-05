@@ -1,4 +1,9 @@
 import type { NextPage } from "next";
+import Image from "next/image";
+import p1 from "@/assets/images/portfolio/P1.png";
+import p2 from "@/assets/images/portfolio/P2.png";
+import p3 from "@/assets/images/portfolio/P3.png";
+import p4 from "@/assets/images/portfolio/P4.png";
 
 const Portfolio: NextPage = () => {
   return (
@@ -31,7 +36,12 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/P1.png" alt="portfolio" />
+                  {/* <img src="/imgs/portfolio/P1.png" alt="portfolio" /> */}
+                  <Image
+                    src={p1}
+                    loading="lazy"
+                    alt="portfolio"
+                  />
                 </div>
                 <div className="portfolio-info">
                   <h4>Desktop Application</h4>
@@ -46,7 +56,11 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/P2.png" alt="portfolio" />
+                <Image
+                    src={p2}
+                    loading="lazy"
+                    alt="portfolio"
+                  />
                 </div>
                 <div className="portfolio-info">
                   <h4>Mobile Application</h4>
@@ -61,7 +75,11 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/P3.png" alt="portfolio" />
+                <Image
+                    src={p3}
+                    loading="lazy"
+                    alt="portfolio"
+                  />
                 </div>
                 <div className="portfolio-info">
                   <h4>Web Development</h4>
@@ -79,7 +97,11 @@ const Portfolio: NextPage = () => {
             >
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/P4.png" alt="portfolio" />
+                <Image
+                    src={p4}
+                    loading="lazy"
+                    alt="portfolio"
+                  />
                 </div>
                 <div className="portfolio-info">
                   <h4>Web Development</h4>
