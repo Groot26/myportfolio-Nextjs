@@ -10,15 +10,15 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://www.saimorajkar.online/assets/screenshots/1.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://www.saimorajkar.online/assets/screenshots/1.png" alt="project-screenshot" width="500" height="400/">
 
-<img src="https://www.saimorajkar.online/assets/screenshots/2.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://www.saimorajkar.online/assets/screenshots/2.png" alt="project-screenshot" width="500" height="400/">
 
-<img src="https://www.saimorajkar.online/assets/screenshots/3.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://www.saimorajkar.online/assets/screenshots/3.png" alt="project-screenshot" width="500" height="400/">
 
-<img src="https://www.saimorajkar.online/assets/screenshots/4.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://www.saimorajkar.online/assets/screenshots/4.png" alt="project-screenshot" width="500" height="400/">
 
-<img src="https://www.saimorajkar.online/assets/screenshots/5.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://www.saimorajkar.online/assets/screenshots/5.png" alt="project-screenshot" width="500" height="400/">
 
   
   
