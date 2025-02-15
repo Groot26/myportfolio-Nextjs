@@ -31,7 +31,7 @@ const About: NextPage = () => {
 
                   <div className="row aboutcontent">
                     <h2>
-                      I am Sairaj Morajkar a <span>Software Developer</span>
+                      I am Sairaj Morajkar a <span>Flutter Developer</span>
                     </h2>
                     <p>
                       Hi! My name is Sai. I am a dedicated and passionate

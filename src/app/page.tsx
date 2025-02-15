@@ -20,7 +20,7 @@ export default async function Home() {
               alt="profile"
             />
             <h1>Sairaj Morajkar</h1>
-            <p>Software Developer</p>
+            <p>Flutter Developer</p>
             <div className="social-links">
               {/* <a href="https://twitter.com/" target="_blank">
                 <i className="fa fa-twitter" />
